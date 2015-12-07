@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="lsp_lsp_jar_1.0-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>lsp.entity.Filials</class>
+    <class>lsp.entity.Isp</class>
+    <class>lsp.entity.Temp</class>
+    <class>lsp.entity.Log</class>
+    <class>lsp.entity.Users</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://10.0.25.253:51212/vpn?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.user" value="bln"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="rnTRN09kln"/>
+    </properties>
+  </persistence-unit>
+</persistence>
