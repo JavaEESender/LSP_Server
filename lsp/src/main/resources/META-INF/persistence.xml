@@ -8,10 +8,10 @@
     <class>lsp.entity.Log</class>
     <class>lsp.entity.Users</class>
     <properties>
-      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://10.0.25.253:51212/vpn?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://10.0.0.250:51212/vpn?zeroDateTimeBehavior=convertToNull"/>
       <property name="javax.persistence.jdbc.user" value="bln"/>
       <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
-      <property name="javax.persistence.jdbc.password" value="rnTRN09kln"/>
+      <property name="javax.persistence.jdbc.password" value="password"/>
     </properties>
   </persistence-unit>
 </persistence>
